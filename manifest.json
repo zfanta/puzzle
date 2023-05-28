@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "puzzle",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://logichome.org/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "action": {}
+}

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "shx rm -rf dist && tsc && shx cp manifest.json dist/manifest.json"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.237",
+    "shx": "^0.3.4",
+    "typescript": "^5.0.4"
+  }
+}
